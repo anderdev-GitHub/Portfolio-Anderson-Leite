@@ -11,7 +11,7 @@
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.5);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/moon-stars.svg)
+    --switch-bg-url: url(./assets/moon-stars.svg);
 
 }
 
@@ -22,7 +22,7 @@
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/sun.svg)
+    --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
@@ -36,11 +36,12 @@ body {
     /* background: color image repeat position/size */
 
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body * {
     font-family: 'Inter', sans-serif;
-    color: var(--text-color)
+    color: var(--text-color);
 }
 
 
@@ -198,4 +199,15 @@ footer a:hover {
     background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
