@@ -110,19 +110,16 @@ body * {
 }
 
 ul p {
-
     display: flex;
     justify-content: center;
 }
 
 ul span {
-
     display: flex;
     justify-content: center;
 }
 
 ul {
-
     list-style: none;
 
     display: flex;
@@ -134,7 +131,6 @@ ul {
 }
 
 ul li a {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,7 +156,6 @@ ul li a:hover {
 }
 
 #social-links {
-
     display: flex;
     justify-content: center;
     padding: 24px 0;
@@ -174,7 +169,6 @@ ul li a:hover {
     padding: 16px;
     transition: background 0.2s;
     border-radius: 50%;
-
 }
 
 #social-links a:hover {
@@ -182,14 +176,12 @@ ul li a:hover {
 }
 
 footer {
-
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
 }
 
 footer a {
-
     text-decoration: none;
 }
 
