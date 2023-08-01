@@ -69,6 +69,38 @@ body * {
     margin-top: 8px;
 }
 
+#resumo-profisional {
+    text-align: center;
+}
+
+#link-curriculo-whatsapp {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; 
+    font-size: 30px;
+}
+
+#link-curriculo-whatsapp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#link-curriculo-whatsapp a:hover {
+    background: var(--highlight-color);
+}
+
+#link-curriculo-whatsapp a:hover ion-icon[name="document-text-outline"]{
+    color: #daa520;
+}
+
+#link-curriculo-whatsapp a:hover ion-icon[name="logo-whatsapp"] {
+    color: #19cf5c;
+}
+
 #switch {
     position: relative;
     width: 64px;
@@ -96,7 +128,7 @@ body * {
 
 #switch button:hover {
     outline: 8px solid var(--highlight-color);
-} 
+}
 
 #switch span {
     display: block;
@@ -155,11 +187,15 @@ ul li a:hover {
     border: 1.5px solid var(--text-color);
 }
 
+#Redes-sociais {
+    text-align: center;
+}
+
 #social-links {
     display: flex;
     justify-content: center;
     padding: 24px 0;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 #social-links a {
@@ -186,11 +222,6 @@ ul li a:hover {
 #social-links a:hover ion-icon[name="logo-facebook"] {
     color: #3b5998;
 }
-
-#social-links a:hover ion-icon[name="logo-whatsapp"] {
-    color: #19cf5c;
-}
-
 
 footer {
     padding: 24px 0;
