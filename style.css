@@ -175,6 +175,23 @@ ul li a:hover {
     background: var(--highlight-color);
 }
 
+#social-links a:hover ion-icon[name="logo-github"]{
+    color: #a9a9a9;
+}
+
+#social-links a:hover ion-icon[name="logo-linkedin"] {
+    color: #0e76a8;
+}
+
+#social-links a:hover ion-icon[name="logo-facebook"] {
+    color: #3b5998;
+}
+
+#social-links a:hover ion-icon[name="logo-whatsapp"] {
+    color: #19cf5c;
+}
+
+
 footer {
     padding: 24px 0;
     text-align: center;
