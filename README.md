@@ -10,6 +10,8 @@
 <p align="center">
   <a href="#house-Sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#balance_scale-Licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -28,10 +30,10 @@ Meu projeto especial é meu próprio portfólio, que foi feito com muito carinho
 - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3) : Utilizado para estilizar a página, definindo as cores, fontes, tamanhos e posições dos elementos. Além disso, ele foi usado para integrar pequenas animações de transições de links e botão de escolha de tema.
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript) : Ultilizado para criar duas funções responsável por alternar o modo claro e escuro da página de portfólio quando o usuário clica no botão de mudança de tema. Ao ser acionada, a função busca o elemento raiz do documento HTML e adiciona ou remove a classe 'light', que é responsável por aplicar a estilização do modo claro ou escuro. Além disso, a função também altera a imagem do perfil, trocando entre a imagem com fundo claro e a imagem com fundo escuro, de acordo com o tema. Essas funções foram adicionadas para oferecer uma experiência mais agradável e personalizada para os usuários, permitindo que possam escolhe o tema que melhor te agrada.
 
-<br>
+## :balance_scale: Licença
 
+Este projeto é de código aberto e está sob a licença Licença MIT. Você é livre para usar, modificar e distribuir este projeto de acordo com os termos da licença.
 
-
-
+## :man_technologist: Autor
 
 Feito com ♥ por Anderson Leite :wave: [Entre em contato!](https://www.linkedin.com/in/andersondiasleite/)
